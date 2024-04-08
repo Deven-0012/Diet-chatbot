@@ -1,0 +1,10 @@
+[
+  {
+    "name": "age_number",
+    "pattern": "\\d{3}"
+  },
+  {
+    "name": "country_name",
+    "pattern": "(\\bAfghanistan\\b|\\bIndia\\b|\\bAmerica\\b|\\bLondon\\b|\\bCanada\\b|\\bRussia\\b|\\bDubai\\b|\\bSri\\ lanka\\b|\\bNepal\\b|\\bAustralia\\b|\\bNew\\ zealand\\b)"
+  }
+]

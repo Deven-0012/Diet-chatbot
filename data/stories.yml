@@ -1,0 +1,34 @@
+version: "3.1"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+
+- story: Ask for name for diet
+  steps:
+  - action: utter_ask_name
+  - intent: my_name
+    entities:
+      - name: "Deven"
+
+
+- story: happy path
+  steps:
+  - intent: echo
+  - action: action_echo
+
+- story: interactive_story_1
+  steps:
+  - intent: nlu_fallback
+  - action: action_echo
+  - intent: nlu_fallback
+  - action: action_echo
+  - intent: nlu_fallback
+  - action: action_echo
+
+
+

@@ -1,0 +1,65 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+
+- intent: my_name
+  examples: |
+    - my name is [Deven](name)
+    - my name is [Kathan](name)
+    - my name is [Dhruv](name)
+    - [Shlok](name) is my name
+    - You can call me [Haril](name)
+      
+
+- intent: echo
+  examples: |
+    - hey bot give me some nutrition recommendation
+    - what is up
+    - tell me something
+    - ok
+    - i want to get food recommendation
+    - i want a diet plan
+
+- intent: nlu_fallback
+  examples: |
+    - hello bot give me a nutrition valued something to eat
+    - i want to eat eggs is it can be included in my diet
+    - I want to get some diet recommendations 
+    - My budget to spend on diet is 100$ per week
+
