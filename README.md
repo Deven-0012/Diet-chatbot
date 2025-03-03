@@ -72,6 +72,8 @@ Technologies used :-
 
 Python
 
+RASA 
+
 fastapi 
 
 uvicorn 
@@ -83,10 +85,6 @@ Pandas
 Streamlit
 
 streamlit-echarts 
-
-Numpy
-
-beautifulsoup4 
 
 
 
